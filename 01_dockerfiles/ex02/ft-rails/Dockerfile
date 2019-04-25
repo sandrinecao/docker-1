@@ -26,5 +26,5 @@ ONBUILD RUN bundle install
 ONBUILD RUN rake db:migrate
 ONBUILD RUN rake db:seed
 
-# docker build -t ex02 .
+# docker build -t ft-rails:on-build .
 # test app: https://github.com/sandrinecao/rails-docker-1-app.git

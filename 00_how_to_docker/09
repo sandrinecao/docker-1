@@ -9,4 +9,4 @@ apt-get upgrade -y
 apt-get install -y build-essential git vim
 
 #to open the debian container, it's like with the previous exercise.
-#use: docker run -it --rm debian bin/sh
+#use: docker run -it --rm debian /bin/sh
