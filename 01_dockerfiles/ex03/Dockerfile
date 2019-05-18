@@ -40,3 +40,4 @@ ENTRYPOINT service ssh start && (/opt/gitlab/embedded/bin/runsvdir-start &) && g
 # docker run --rm -it -p 80:80 -p 443:443 -p 2222:22 ex03
 # Add more power to the VM:
 # docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)
+# Before pushing on Gitlab, add command GIT_SSL_NO_VERIFY=true
